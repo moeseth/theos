@@ -41,9 +41,13 @@ the generation of a class list and an automatic constructor.
 */
 
 
-file 6 Makefile
+file 10 Makefile
 include theos/makefiles/common.mk
 
+GO_EASY_ON_ME=1
+export SDKVERSION=4.3
+
+@@PROJECTNAME@@_FRAMEWORKS=UIKit QuartzCore
 TWEAK_NAME = @@PROJECTNAME@@
 @@PROJECTNAME@@_FILES = Tweak.xm
 
