@@ -59,7 +59,7 @@ Name: @@FULLPROJECTNAME@@
 Depends: mobilesubstrate
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: Testing Tweak
+Description: Testing Tweak!
 Maintainer: @@USER@@
 Author: @@USER@@
 Section: Tweaks
