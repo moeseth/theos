@@ -2,6 +2,11 @@
 	#import <Foundation/Foundation.h>
 	#define CLASS(cls) objc_getClass(#cls)
 
+
+        #if TARGET_IPHONE || TARGET_IPHONE_SIMULATOR
+        #import <UIKit/UIKit.h>
+        #endif
+
 	#ifdef DEBUG
 		#define __DEBUG__
 	#endif
